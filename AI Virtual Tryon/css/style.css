@@ -200,6 +200,66 @@ button:hover {
     display: block;
 }
 
+
+/*try it */
+.tryit{
+    background-color: #355c7d;
+}
+
+.tryit {
+    padding: 20px;
+    background-color: #355c7d;
+}
+
+.tryit h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    display: block;
+    margin: 10px auto;
+}
+
+.feature img:first-child {
+    width: 200px; /* Ensure the cloth images are of same width */
+    height: 300px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Ensures the image fits within the specified dimensions */
+}
+
+.feature img:last-child {
+    width: 150px; /* Ensure the QR images are the same width */
+    height: 150px; /* Fixed height for all QR codes */
+    object-fit: cover; /* Ensures the QR image fits nicely */
+}
+
+.feature h3 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+
+
+
 /* Features Section */
 .features {
     padding: 50px 5%;
